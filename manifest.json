@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Damn! Take me to the library!",
+  "description": "This extension automatically adds the 'ezp.lib.unimelb.edu.au' to the browser's address, allowing you to visit the databases bought by the library quickly",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "link.png",
+    "default_title": "Damn! Take me to the library!"
+  },
+  
+  "background":{
+    "scripts":["background.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
